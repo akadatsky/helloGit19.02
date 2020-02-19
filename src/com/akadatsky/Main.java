@@ -14,6 +14,7 @@ public class Main {
 
     }
 
+    // test
     private static void test1(int i) throws MyException, ArithmeticException {
         if (i > 0) {
             throw new OutOfMemoryError("no memory for test");

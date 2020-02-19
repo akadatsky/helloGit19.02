@@ -2,6 +2,7 @@ package com.akadatsky;
 
 public class Main {
 
+    // test
     public static void main(String[] args) {
 
         try {
@@ -15,13 +16,11 @@ public class Main {
 
     private static void test1(int i) throws MyException, ArithmeticException {
         if (i > 0) {
-            //throw new MyException("message", "Exception in test1");
             throw new OutOfMemoryError("no memory for test");
         }
     }
 
     /**
-     *
      * @param i
      * @throws MyRuntimeException
      */
